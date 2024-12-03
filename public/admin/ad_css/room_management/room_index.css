@@ -1,0 +1,92 @@
+@import url('https://fonts.cdnfonts.com/css/gravity');
+@import url('https://fonts.cdnfonts.com/css/play');
+
+:root {
+    --bgc--th: rgb(34, 73, 131);
+}
+
+.wrapper__search{
+   margin-top: 5rem !important;
+   margin-left: 55rem;
+   /* font-family: 'Gravity', sans-serif; */
+   font-family: 'Play', sans-serif !important;                                           
+
+}
+
+.search__all{
+    margin-left: 1rem !important;
+    
+}
+
+
+.table__room{
+    margin-top: -1rem !important;
+    /* font-family: 'Gravity', sans-serif; */
+    font-family: 'Play', sans-serif !important; 
+}
+.table__room--title{
+    text-align: center !important;
+    color: white !important;
+    background-color: rgb(34, 73, 131) !important;
+}
+
+
+#add__room--icon{
+    padding-top: 0.5rem;
+    width: 2rem;
+    transition: transform .2s;
+}
+
+#add__room--icon:hover {
+    transform: scale(1.1); 
+}
+#tadd__room--icon a{
+    width: 100%;
+}
+.room{
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+/*sửa phòng*/
+.form__edit--room{
+    margin-top: 0.3rem;
+    margin-left: 1.3rem;
+    width: 4rem;
+    height: 5vh;
+}
+
+.button__edit--room{
+    width: 100%;
+    height: 90%;
+    background-color: rgb(84, 180, 143);
+    border: 2px solid rgb(84, 180, 143);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.button__edit--room:hover{
+    box-shadow: 5px 5px 10px #888888;
+}
+
+/*xóa phòng*/
+.delete__room{
+    margin-top: 0.3rem;
+    margin-left: 1.3rem;
+    width: 4rem;
+    height: 5vh;
+}
+
+
+.button__delete--room{
+    width: 100%;
+    height: 90%;
+    background-color: rgb(232, 72, 72);
+    border: 2px solid rgb(232, 72, 72);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.button__delete--room:hover{
+    box-shadow: 5px 5px 10px #888888;
+}

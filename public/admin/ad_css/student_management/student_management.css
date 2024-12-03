@@ -1,0 +1,55 @@
+@import url('https://fonts.cdnfonts.com/css/play');
+
+.total{
+    font-family: 'Play', sans-serif !important;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+.student_management_list{
+    margin-top: 2rem !important;
+    font-family: 'Play', sans-serif !important;
+}
+
+.delete_action--icon{
+    margin-left: 0.6rem !important;
+}
+
+.tool_student-management{
+    width: 95%;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-top: 7rem !important;
+    /* margin-left: 77rem !important; */
+    font-family: 'Play', sans-serif !important;
+    height: 9vh !important;
+    /* height: 10vh !important; */
+}
+.delete__button{
+    width:8% ;
+    font-family: 'Play', sans-serif !important;
+    margin-left: 52rem !important;
+} 
+
+.delete__icon{
+    margin-right: 0.5rem;
+}
+
+.search__keywords{
+    margin-top: 0.9rem !important;
+    width: 30%;
+ 
+}
+.search_kw{
+    margin-left: 3rem !important;
+}
+.search__button-st{
+    margin-left: 1rem !important;
+}
+
+.perpage{
+    margin-left: 3.5rem !important;
+    margin-top: 1rem;
+}
+

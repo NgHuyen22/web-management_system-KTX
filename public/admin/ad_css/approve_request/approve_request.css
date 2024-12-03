@@ -1,0 +1,149 @@
+@import url('https://fonts.cdnfonts.com/css/gravity');
+@import url('https://fonts.cdnfonts.com/css/play');
+
+.statistical-dropdown{
+  display: flex;
+  width: 100% !important;
+  /* height: 37vh !important; */
+  margin-top: 1rem !important;
+}
+.dropdown__form{
+    width: 50% !important;
+    margin-top: 8rem !important;
+    margin-left: 4rem;
+    /* font-family: 'Gravity', sans-serif !important; */
+    font-family: 'Play', sans-serif !important;
+}
+.dropdown__from--button{
+    width: 100% !important;
+    background-color: white !important;
+    border: 2px solid rgb(69, 162, 255) !important;
+    font-family: 'Play', sans-serif !important;
+
+}
+
+.icon_button{
+    background-color:rgb(69, 162, 255) !important ;
+    border: 1px solid rgb(69, 162, 255) !important;
+  
+}
+.statistical{
+  
+  width: 22% !important;
+  margin-top: 6rem !important;
+  margin-left: 15rem !important;
+}
+
+.note{
+  display:flex ;
+  flex-direction: column;
+}
+.unapprove-icon{
+  background-color: rgb(206, 37, 37) !important;
+
+}
+.approved-icon{
+  background-color:  rgb(52, 102, 239)!important;
+
+}
+
+
+/* html,
+body,
+.intro {
+  height: 100%;
+} */
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card {
+  border-radius: .5rem;
+}
+
+.mask-custom {
+  background: rgba(24, 24, 16, .2);
+  border-radius: 2em;
+  backdrop-filter: blur(25px);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  /* font-family: 'Gravity', sans-serif !important; */
+  font-family: 'Play', sans-serif !important;
+}
+
+.list_room_registration{
+    margin-top: 3rem !important;
+    font-family: 'Play', sans-serif !important;
+  
+}
+
+.accept_request{
+    background-color: rgb(43, 163, 119) !important;
+    border: 0.09rem solid rgb(43, 163, 119) !important;
+}
+
+.accept_request:hover{
+  background-color: rgb(13, 135, 90) !important;
+}
+
+.approve--button{
+
+  width: 50% !important ;
+  margin-top: 2rem !important;
+  margin-left: 4rem;
+  /* font-family: 'Gravity', sans-serif !important; */
+  font-family: 'Play', sans-serif !important;
+}
+
+#not_approve--button{
+  margin-left: 12rem;
+
+}
+
+#approved--button{
+  
+  margin-left: 3rem;
+}
+
+#not_approve__changes--button{
+  margin-left: 12rem;
+
+}
+
+#approved__changes--button{
+  
+  margin-left: 3rem;
+}
+#approved__giveback--button{
+  margin-left: 3rem;
+}
+#unapprove__giveback--button{
+  margin-left: 12rem;
+}
+#unapprove_csvc_repair{
+  margin-left: 12rem;
+}
+#approved_csvc_repair{
+  margin-left: 3rem;
+}
+
+.register-icon{
+ color:rgb(6, 53, 119);
+}
+
+.move-icon{
+  color: rgb(21, 115, 85);
+}
+
+.give-back-icon{
+  color: rgb(177, 37, 37);
+}
+
+.progress-bar.active {
+  background-color: rgb(63, 111, 244) !important;
+}

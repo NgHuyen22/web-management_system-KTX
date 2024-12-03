@@ -1,0 +1,31 @@
+@import url('https://fonts.cdnfonts.com/css/play');
+
+.bill_content{
+    color: black !important;
+}
+
+.bill_list{
+    width: 60% !important;
+    margin-top: 12rem !important;
+    font-family: 'Play', sans-serif !important;
+}
+
+.type_bill{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Play', sans-serif;
+}
+
+.bill_table{
+    font-family: 'Play', sans-serif !important;
+    width: 80% !important;
+    margin-left: 5rem;
+}
+.bill_room{
+    width: 100% !important;
+    /* margin-top: 4rem !important; */
+}
+.bill_content{
+    
+    width: 100% !important;
+}

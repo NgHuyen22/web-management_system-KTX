@@ -1,0 +1,83 @@
+
+@import url('https://fonts.cdnfonts.com/css/play');
+
+.form__register_repair_csvc{
+    font-family: 'Play', sans-serif !important;   
+    width: 50% !important;
+    margin-top: 4rem;
+    height: 68vh;
+}
+.tool_repair{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.label{
+    /* margin-top: 0.4rem !important; */
+    width: 30%;
+}
+.asterisk{
+    color: rgb(181, 31, 31) !important;
+}
+
+.textbox{
+    width: 60% !important;
+}
+
+.button_register_repair{
+    margin-top: 1rem !important;
+  
+}
+
+.alert-form{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.alert-csvc_repair{
+    width: 30% !important;
+    /*margin-left: 15rem;*/
+    font-family: 'Play', sans-serif !important; 
+    color: rgb(29, 36, 132) !important;
+    height: 10vh !important;
+    margin-top: 4rem;
+    text-align: center;
+    height: 68vh;
+}
+
+
+
+.tabel_register_repair th{
+    background-color: rgb(62, 107, 143) !important;
+    color: white !important;
+    /* width: 90% !important ; */
+
+}
+
+.button_register_repair{
+    margin-top: 0.3rem !important;
+    margin-left: 0.5rem !important;
+
+}
+.csvc_repair_list{
+    width: 90% !important ;
+}
+
+.swal2-borderless .swal2-modal {
+
+    background-color:rgb(14, 75, 131);
+    color: white;
+    border: 2px solid rgb(250, 250, 250);
+    border-radius: 1rem;
+    font-family: 'Play', sans-serif !important;                             
+}
+
+.error_no_room{
+    margin-top: 4rem;
+    font-family: 'Play', sans-serif !important;     
+    color: rgb(30, 30, 108);                        
+}

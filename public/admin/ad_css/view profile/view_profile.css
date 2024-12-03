@@ -1,0 +1,31 @@
+
+
+
+.table__profile{
+    margin-top: 10rem !important;
+    margin-left: 9rem !important;
+    width: 80% !important;
+    height: 50vh;
+}
+.table__profile--title{
+
+    text-align: center !important;
+    color: white !important;
+    background-color: #4d9edb !important;
+    height: 10vh !important;
+    font-size: 1.5rem;
+}
+
+.table__profile tbody tr:nth-child(odd) {
+    background-color: #c4e7ff;
+}
+
+.table__profile tbody tr:nth-child(even) {
+    background-color: white; 
+}
+
+.table__profile tbody tr:hover{
+    background-color: rgb(34, 73, 131); 
+    color: white;
+}
+

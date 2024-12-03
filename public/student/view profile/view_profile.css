@@ -1,0 +1,54 @@
+@import url('https://fonts.cdnfonts.com/css/play');
+@import url('https://fonts.cdnfonts.com/css/gravity');
+.profile{
+    width: 100%;
+    margin-top: 5rem ;
+    justify-content: space-between;
+    
+    
+}
+.table__profile--sv{
+    width: 100% !important;
+    font-family: 'Play', sans-serif !important;
+    /* margin-top: 5rem !important; */
+}
+.profile__title--sv{
+
+    text-align: center !important;
+    color: white !important;
+    background-color: #4d9edb !important;
+}
+
+.table__profile--sv tbody tr:nth-child(even) {
+    background-color: #c4e7ff;
+}
+
+.table__profile--sv tbody tr:nth-child(odd) {
+    background-color: white; 
+}
+
+.table__profile--sv tbody tr:hover{
+    background-color: rgb(34, 73, 131); 
+    color: white;
+}
+.info{
+    width: 40%;
+}
+.form__table{
+    width: 50%;
+    font-family: 'Play', sans-serif !important;       
+}
+.table__form--register{
+    width: 100% ;
+}
+.give__back--room{
+    width: 18% !important;
+    font-family: 'Play', sans-serif !important;   
+    margin-left: 0.7rem; 
+    margin-top: 0.5rem !important;
+}
+.cancle-form{
+    margin-left: 22rem;
+}
+
+
